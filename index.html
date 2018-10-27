@@ -15,24 +15,29 @@
       <p style="font-size:30px;">
         We are a company that generates  psuedorandom mazes that have a starting and ending point. Then the maze can be printed out and solved by our customer. The customer can also make requests such as wanting a cat shaped maze or a house shaped maze.
       </p>
-      <h2 style="font-size:50px;"><mark>Examples:</mark></h2>
-      <h2 style="font-size:50px;"><mark>What Are We?</mark></h2>
+      <h2 style="font-size:50px;"><mark>Basic Example:</mark></h2>
+      <center><img src="Maze1.PNG"></center>
+      <h2 style="font-size:50px;"><mark>How Do We Do It?</mark></h2>
+      <p style="font-size:30px;">
+        Our algorithm creates numerous arrays of random numbers that represent paths and walls in the maze. 1's represent walls, while 2's represent starting and ending points, and 0's represent potential paths. Then, the resulting arrays are transfered to our graphic application (i.e. Excel).
+      </p>
+      <h2 style="font-size:50px;"><mark>Order Form</mark></h2>
       <div class="container">
       <form action="action_page.php">
 
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your first name">
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your full name">
 
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name">
+        <label for="lname">Email</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your email">
 
         <label for="lname">Credit Card Number with Security Pin in Parentheses</label>
         <input type="text" id="lname" name="lastname" placeholder="ex: xxxx-xxxx-xxxx-xxxx (xxx)">
 
-        
+
 
         <label for="subject">Special Requests for Shape of Maze</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <textarea id="subject" name="subject" placeholder="Your request here" style="height:200px"></textarea>
 
         <input type="submit" value="Submit">
 
