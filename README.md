@@ -1,1 +1,1 @@
-# maze4u.github.com
+# maze4u.github.io
